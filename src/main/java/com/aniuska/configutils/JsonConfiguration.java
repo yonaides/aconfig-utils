@@ -37,7 +37,6 @@ public final class JsonConfiguration implements Configuration {
         this.directory = directory;
         this.configName = configName;
         this.gson = new GsonBuilder()
-//                .setPrettyPrinting()
                 .create();
         load();
     }
